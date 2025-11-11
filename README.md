@@ -5,7 +5,10 @@
 The task was to make a program that simulates the Mastermind game by using numbers from 0 to 8 instead of colours.
 
 ## Description
-TODO - How have you solved the problem?
+In this version of the Mastermind game instead of a combination of colours you have to guess a combination of
+four digits from 0 to 8 that don't repeat themselves. When you make a guess, the game tells you how many
+correctly placed digits you have and how many digits are correct, but misplaced. You have a limited amount
+of attempts - you either set the attempt number yourself, or it is 10 by default.
 
 ## Installation
 The project is installed by typing "make" in the terminal.
