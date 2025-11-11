@@ -15,7 +15,7 @@ You can run the program without putting in any options, and it will automaticall
 You can type in your secret code by typing "-c CODE". The code should contain four different digits from 0 to 8.
 You can type in a set number of attempts by typing "-t NUMBER" which should be greater than 0.
 You can set both the code and the number of attempts at the same time.
-When playing and guessing the code, your 
+When you're prompted for a guess, instead of the guess you can press Ctrl + D to exit the game.
 ```
 ./my_project -c 1234 -t 12
 ```
